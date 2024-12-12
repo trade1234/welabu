@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Welabu</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/letter-w.png" rel="icon">
+  <link href="assets/img/letter-w.png" rel="apple-touch-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+     my ferist work 
+  * Designed By: Amanuel Andemo
+  * Email: andemoamanuel@gmail.com
+  * linkedin: https://www.linkedin.com/in/amanuel-andemo-86bba9306
+  ======================================================== -->
+  <style>
+    /*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+    .contact .info-wrap {
+      background-color: var(--surface-color);
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    @media (max-width: 575px) {
+      .contact .info-wrap {
+        padding: 20px;
+      }
+    }
+
+    .contact .info-item {
+      margin-bottom: 40px;
+    }
+
+    .contact .info-item i {
+      font-size: 20px;
+      color: var(--accent-color);
+      background: color-mix(in srgb, var(--accent-color), transparent 92%);
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      margin-right: 15px;
+    }
+
+    .contact .info-item h3 {
+      padding: 0;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+
+    .contact .info-item p {
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    .contact .info-item:hover i {
+      background: var(--accent-color);
+      color: var(--contrast-color);
+    }
+
+    .contact .php-email-form {
+      background-color: var(--surface-color);
+      height: 100%;
+      padding: 30px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 575px) {
+      .contact .php-email-form {
+        padding: 20px;
+      }
+    }
+
+    .contact .php-email-form input[type=text],
+    .contact .php-email-form input[type=email],
+    .contact .php-email-form textarea {
+      font-size: 14px;
+      padding: 10px 15px;
+      box-shadow: none;
+      border-radius: 0;
+      color: var(--default-color);
+      background-color: var(--surface-color);
+      border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+    }
+
+    .contact .php-email-form input[type=text]:focus,
+    .contact .php-email-form input[type=email]:focus,
+    .contact .php-email-form textarea:focus {
+      border-color: var(--accent-color);
+    }
+
+    .contact .php-email-form input[type=text]::placeholder,
+    .contact .php-email-form input[type=email]::placeholder,
+    .contact .php-email-form textarea::placeholder {
+      color: color-mix(in srgb, var(--default-color), transparent 70%);
+    }
+
+    .contact .php-email-form button[type=submit] {
+      color: var(--contrast-color);
+      background: var(--accent-color);
+      border: 0;
+      padding: 10px 30px;
+      transition: 0.4s;
+      border-radius: 50px;
+    }
+
+    .contact .php-email-form button[type=submit]:hover {
+      background: color-mix(in srgb, var(--accent-color), transparent 25%);
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo w.png" alt="">
+        <h1 class="sitename">Welabu</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="more_about.html">About</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <!-- <li><a href="#" class="active">Contact</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="contact.html">Contact</a>
+
+    </div>
+  </header>
+
+  <main class="main" id="portfolio">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(assets/img/welabu/gallery-10.png);">
+      <div class="container position-relative">
+        <h1>Contact Us</h1>
+        <p>At Welabu, we offer a range of services designed to meet the needs of our diverse clientele.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html#hero">Home</a></li>
+            <li class="current">Contact</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2><span>Need Help?</span><span class="description-title">Contact Us</span> </h2>
+        <!-- <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>TuluBolo, Oromia Region</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+251 951 883 858</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>dibekulugetachew@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="" method="post" role="form" id="contact-form" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
+              <div class="col-md-6 mb-3">
+                <div class="form-group">
+                  <input type="text" name="user_name" class="form-control form-control-lg form-control-a"
+                    placeholder="Your Name" required>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="form-group">
+                  <input name="user_email" type="email" class="form-control form-control-lg form-control-a"
+                    placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="col-md-12 mb-3">
+                <div class="form-group">
+                  <input type="text" name="user_subject" class="form-control form-control-lg form-control-a"
+                    placeholder="Subject" required>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea name="user_message" class="form-control" name="message" cols="45" rows="8"
+                    placeholder="Message" required></textarea>
+                </div>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-a">Send Message</button>
+              </div>
+          </div>
+          </form>
+          <script>
+
+            /*==================EMAIL JS=====================*/
+            const contactForm = document.getElementById('contact-form'),
+              contactMessage = document.getElementById('contact-message')
+
+            const sendEmail = (e) => {
+              e.preventDefault()
+
+              //serviceID - temeplet - #form - publickey
+
+              emailjs.sendForm("service_igui9qr", "template_j4dstx8", "#contact-form", "skoMzmft0v8WwLD8K")
+                .then(() => {
+                  // Show sent message 
+                  contactMessage.textContent = 'Message sent successfully ✅'
+
+                  // Remove message after five seconds
+                  setTimeout(() => {
+                    contactMessage.textContent = ''
+                  }, 3000)
+
+                  //Clear input Fields
+                  contactForm.reset()
+
+                }, () => {
+                  // Show error message
+                  contactMessage.textContent = 'Message not sent (service error) ❌'
+                })
+            }
+            contactForm.addEventListener('submit', sendEmail)
+          </script>
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        </div><!-- End Contact Form -->
+
+      </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+    <footer id="footer" class="footer dark-background">
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Welabu</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>TuluBolo, Oromia Region</p>
+              <p>Oromia, Ethiopia</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+251-951-883-858</span></p>
+              <p><strong>Email:</strong> <span>dibekulugetachew@gmail.com</span></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <!-- <li><a href="#">Seed Production</a></li> -->
+              <li><a href="#">Restaurant</a></li>
+              <li><a href="#">Bakery - Bina</a></li>
+              <li><a href="#">Gas Station Services</a></li>
+              <!-- <li><a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
+              <h4>Our Newsletter</h4>
+              <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+              <form action="forms/newsletter.php" method="post" class="php-email-form">
+                <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+              </form>
+            </div> -->
+
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">welabu</strong> <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+
+          Designed by <a href="https://Tradeethiopia.com/">Trade Ethiopia</a>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
